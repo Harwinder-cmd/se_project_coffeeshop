@@ -10,6 +10,7 @@
   border: none;
   padding: 0 0 32px;
   margin: 0 auto;
+  max-width: 380px;
 }
 .form__label {
   margin: 0 0 8px;
@@ -26,8 +27,7 @@
   border-radius: 4px;
   margin: 0 0 32px;
   height: 60px;
-  max-width: 380px;
-  min-width: 100px;
+  width: 100%;
   padding: 0;
 }
 .form__input:last-child {
