@@ -17,5 +17,6 @@
   line-height: 52px;
 }
 .reservation__form {
-  margin: 0 auto;
+  margin: 0;
+  max-width: 380px;
 }

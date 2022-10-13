@@ -9,7 +9,7 @@
   flex-direction: column;
   border: none;
   padding: 0 0 32px;
-  margin: 0 auto;
+  margin: 0 auto 120px;
   max-width: 380px;
 }
 .form__label {
@@ -20,20 +20,15 @@
   font-size: 16px;
   line-height: 20px;
 }
-.form__label:last-child {
-  margin-bottom: 0;
-}
 .form__input {
   border-radius: 4px;
   margin: 0 0 32px;
   height: 60px;
-  width: 100%;
   padding: 0;
-}
-.form__input:last-child {
-  margin-bottom: 0;
+  width: 100%;
 }
 .form__input::placeholder {
+  padding-left: 20px;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -65,4 +60,8 @@
   height: 20px;
   margin: 0 12px 0 0;
   padding: 0;
+}
+input [type="checkbox"]:checked {
+  background-image: url("../Images/check.svg");
+  background-color: #2f80ed;
 }
