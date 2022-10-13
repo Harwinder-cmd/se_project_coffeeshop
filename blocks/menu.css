@@ -4,62 +4,35 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
   margin: 0 auto;
+  color: #fff;
 }
 .menu__title {
   text-align: center;
   max-width: 780px;
-  margin: 100px auto 24px;
+  margin: 0 auto 24px;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  padding-top: 100px;
 }
 .menu__subtitle {
   text-align: center;
   max-width: 780px;
-  margin-bottom: 100px;
   margin: 0 auto 100px;
-  font-family: Noto Serif;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  padding-top: 0;
-  list-style: none;
 }
 .menu__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 100px;
   gap: 100px;
-}
-.card {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 50%;
-  max-width: 600px;
-}
-.card__title {
-  margin: 0 0 32px;
-}
-.card__list {
+  padding-bottom: 100px;
   list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.card__list-item {
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-.card__list-item:last-child {
-  margin-bottom: 0;
-}
-.card__list-divider {
-  display: block;
-  border-bottom: #fff 2px solid;
-  flex-grow: 2;
+  margin: 0 auto;
 }
