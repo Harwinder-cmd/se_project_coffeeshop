@@ -19,7 +19,6 @@
   padding-left: 80px;
   max-width: 729px;
   margin: 0 0 28px;
-  font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
@@ -28,7 +27,6 @@
   display: block;
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: italic;
-  font-weight: normal;
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
@@ -40,8 +38,6 @@
   padding-left: 80px;
   max-width: 683px;
   font-family: "Noto Serif", "Times New Roman", Times, serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
 }
@@ -54,27 +50,28 @@
   margin: 0 auto;
 }
 .header__footer {
+  margin: auto 80px 40px;
+  padding: 0;
+}
+.header__paragraph {
   display: flex;
-  align-items: flex-end;
   justify-content: space-between;
-  margin: auto 0 0;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
 }
-.header__paragraph {
-  padding: 0 80px 40px;
-  margin: 0;
-}
 .header__hours {
-  list-style: none;
   margin: 0;
+  padding: 0;
   color: #6f6f6f;
+  list-style: none;
 }
 .header__address {
   position: relative;
   z-index: 1;
+  align-self: flex-end;
+  padding: 0;
   margin: 0;
   color: #6f6f6f;
+  list-style: none;
 }
