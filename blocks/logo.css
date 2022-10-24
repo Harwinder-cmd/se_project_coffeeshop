@@ -1,12 +1,8 @@
-.header__logo {
+.logo {
   position: absolute;
   top: 30px;
   left: 30px;
   width: 125px;
   height: 142px;
   margin: 0 auto;
-}
-.footer__logo {
-  width: 116px;
-  height: 21px;
 }
